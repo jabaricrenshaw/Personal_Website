@@ -7,11 +7,14 @@
                 </nuxt-link>
             </div>
         </div>
+        <div class="centerContent">
+            
+        </div>
         <div class="rightContent">
             <div class="buttons">
-                <nuxt-link to="/projects" class="rml"><p class="link">Projects</p></nuxt-link>
-                <nuxt-link to="/about" class="rml"><p class="link">About</p></nuxt-link>
-                <nuxt-link to="/resume" class="rml"><p class="link">Resume</p></nuxt-link>
+                <nuxt-link to="/projects" class="link">Projects</nuxt-link>
+                <nuxt-link to="/about" class="link">About</nuxt-link>
+                <nuxt-link to="/resume" class="link">Resume</nuxt-link>
             </div>
         </div>
     </main>   
@@ -28,7 +31,10 @@ main{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background: rgba(117,113,94,1);
+    background-color: black;
+    border-bottom: white 4px solid;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 .leftContent {
     width: 20%;
@@ -36,38 +42,61 @@ main{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-}
-.rightContent {
-    width: 80%;
-    height: 100%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    margin-left: 20px;
 }
 .d1 {
     width: fit-content;
-    margin: 0 15px;
 }
 #name {
     font-size: 2rem;
-    color: black;
+    color: #a0a0a0;
     text-decoration: none;
     filter: drop-shadow(0 0 3px black);
+    transition: 0.3s;
 }
-.buttons {
+#name:hover{
+    color: white;
+}
+.rightContent {
+    width: 35%;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+.buttons{
+    width: 100%;
     display: flex;
     flex-direction: row;
-    margin: 0 15px;
+    justify-content: space-between;
 }
-.link {
-    color: black;
+.link{
+    color:#a0a0a0;
+    font-size: 1.4rem;
     text-decoration: none;
-    font-size: 1.7rem;
-    margin-left: 40px;
-    line-height: 80px;
-    border-radius: 10px;
+
+    position: relative;
+    letter-spacing: 0.5px;
+    padding: 0 0;
+    transition: 0.3s;
 }
-.rml {
-    text-decoration: none;
+.link:after{
+    content: "";
+    position: absolute;
+    background-color: orange;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -0.2rem;
+    transition: 0.3s;
+}
+.link:hover{
+    color: white;
+}
+.link:hover:after{
+    width: 100%;
+
+}
+.centerContent{
+    width: 45%;
 }
 </style>

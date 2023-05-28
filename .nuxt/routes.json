@@ -3,24 +3,28 @@
     "name": "about",
     "path": "/about",
     "component": "/home/jabari/Desktop/WebsiteNuxt/pages/about/index.vue",
-    "chunkName": "pages/about/index"
+    "chunkName": "pages/about/index",
+    "_name": "_7ba6ca4e"
   },
   {
     "name": "projects",
     "path": "/projects",
     "component": "/home/jabari/Desktop/WebsiteNuxt/pages/projects/index.vue",
-    "chunkName": "pages/projects/index"
+    "chunkName": "pages/projects/index",
+    "_name": "_57b7d16f"
   },
   {
     "name": "resume",
     "path": "/resume",
     "component": "/home/jabari/Desktop/WebsiteNuxt/pages/resume/index.vue",
-    "chunkName": "pages/resume/index"
+    "chunkName": "pages/resume/index",
+    "_name": "_3abf8be2"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/home/jabari/Desktop/WebsiteNuxt/pages/index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_7a5792d0"
   }
 ]

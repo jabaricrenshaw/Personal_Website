@@ -2,9 +2,7 @@
     <main>
         <div class="leftContent">
             <div class="d1">
-                <nuxt-link id="name" to="/">
-                    <p>Jabari<br>Crenshaw</p>
-                </nuxt-link>
+                <nuxt-link id="name" to="/">Jabari<br>Crenshaw</nuxt-link>
             </div>
         </div>
         <div class="centerContent">
@@ -37,7 +35,7 @@ main{
     padding-top: 10px;
 }
 .leftContent {
-    width: 20%;
+    width: 16%;
     height: 100%;
     display: flex;
     justify-content: flex-start;
@@ -51,11 +49,15 @@ main{
     font-size: 2rem;
     color: #a0a0a0;
     text-decoration: none;
-    filter: drop-shadow(0 0 3px black);
+    
     transition: 0.3s;
 }
 #name:hover{
     color: white;
+    filter: drop-shadow(0 0 5px white);
+}
+.centerContent{
+    width: 49%;
 }
 .rightContent {
     width: 35%;
@@ -67,7 +69,7 @@ main{
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .link{
     color:#a0a0a0;
@@ -95,8 +97,5 @@ main{
 .link:hover:after{
     width: 100%;
 
-}
-.centerContent{
-    width: 45%;
 }
 </style>

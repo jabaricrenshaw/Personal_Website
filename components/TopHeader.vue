@@ -2,7 +2,7 @@
     <main>
         <div class="leftContent">
             <div class="d1">
-                <nuxt-link id="name" to="/">Jabari<br>Crenshaw</nuxt-link>
+                <NuxtLink id="name" to="/">Jabari<br>Crenshaw</NuxtLink>
             </div>
         </div>
         <div class="centerContent">
@@ -10,8 +10,8 @@
         </div>
         <div class="rightContent">
             <div class="buttons">
-                <nuxt-link to="/projects" class="link">Projects</nuxt-link>
-                <nuxt-link to="/resume" class="link">Resume</nuxt-link>
+                <NuxtLink to="/projects" class="link">Projects</NuxtLink>
+                <NuxtLink to="/resume" class="link">Resume</NuxtLink>
             </div>
         </div>
     </main>   

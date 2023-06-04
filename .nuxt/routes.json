@@ -1,12 +1,5 @@
 [
   {
-    "name": "about",
-    "path": "/about",
-    "component": "/home/jabari/Desktop/WebsiteNuxt/pages/about/index.vue",
-    "chunkName": "pages/about/index",
-    "_name": "_7ba6ca4e"
-  },
-  {
     "name": "projects",
     "path": "/projects",
     "component": "/home/jabari/Desktop/WebsiteNuxt/pages/projects/index.vue",

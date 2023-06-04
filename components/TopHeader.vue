@@ -11,7 +11,6 @@
         <div class="rightContent">
             <div class="buttons">
                 <nuxt-link to="/projects" class="link">Projects</nuxt-link>
-                <nuxt-link to="/about" class="link">About</nuxt-link>
                 <nuxt-link to="/resume" class="link">Resume</nuxt-link>
             </div>
         </div>
@@ -29,7 +28,7 @@ main{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color: black;
+    background-color: #141414;
     border-bottom: white 4px solid;
     padding-bottom: 10px;
     padding-top: 10px;

@@ -1,5 +1,5 @@
-export { default as FileViewer } from '../../components/FileViewer.vue'
-export { default as TopHeader } from '../../components/TopHeader.vue'
+export const FileViewer = () => import('../../components/FileViewer.vue' /* webpackChunkName: "components/file-viewer" */).then(c => wrapFunctional(c.default || c))
+export const TopHeader = () => import('../../components/TopHeader.vue' /* webpackChunkName: "components/top-header" */).then(c => wrapFunctional(c.default || c))
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {

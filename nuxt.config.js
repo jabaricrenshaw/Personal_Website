@@ -6,7 +6,7 @@ export default {
   },
 
   head: {
-    title: 'Website',
+    title: 'Jabari Crenshaw',
     htmlAttrs: {
       lang: 'en',
     },
@@ -16,7 +16,7 @@ export default {
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [{ rel: 'icon', type: 'image/gif', href: 'favicon.gif' }],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css

@@ -2,22 +2,19 @@
   {
     "name": "projects",
     "path": "/projects",
-    "component": "/home/jabari/Desktop/WebsiteNuxt/pages/projects/index.vue",
-    "chunkName": "pages/projects/index",
-    "_name": "_57b7d16f"
+    "component": "/home/jabari/Documents/Coding/WebsiteNuxt/pages/projects/index.vue",
+    "chunkName": "pages/projects/index"
   },
   {
     "name": "resume",
     "path": "/resume",
-    "component": "/home/jabari/Desktop/WebsiteNuxt/pages/resume/index.vue",
-    "chunkName": "pages/resume/index",
-    "_name": "_3abf8be2"
+    "component": "/home/jabari/Documents/Coding/WebsiteNuxt/pages/resume/index.vue",
+    "chunkName": "pages/resume/index"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "/home/jabari/Desktop/WebsiteNuxt/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_7a5792d0"
+    "component": "/home/jabari/Documents/Coding/WebsiteNuxt/pages/index.vue",
+    "chunkName": "pages/index"
   }
 ]

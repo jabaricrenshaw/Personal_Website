@@ -4,9 +4,9 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _57b7d16f = () => interopDefault(import('../pages/projects/index.vue' /* webpackChunkName: "pages/projects/index" */))
-const _3abf8be2 = () => interopDefault(import('../pages/resume/index.vue' /* webpackChunkName: "pages/resume/index" */))
-const _7a5792d0 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
+const _33d5afb4 = () => interopDefault(import('../pages/projects/index.vue' /* webpackChunkName: "pages/projects/index" */))
+const _9a4b9132 = () => interopDefault(import('../pages/resume/index.vue' /* webpackChunkName: "pages/resume/index" */))
+const _432aba2a = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
 
@@ -14,22 +14,22 @@ Vue.use(Router)
 
 export const routerOptions = {
   mode: 'history',
-  base: '/',
+  base: '/Personal_Website/',
   linkActiveClass: 'nuxt-link-active',
   linkExactActiveClass: 'nuxt-link-exact-active',
   scrollBehavior,
 
   routes: [{
     path: "/projects",
-    component: _57b7d16f,
+    component: _33d5afb4,
     name: "projects"
   }, {
     path: "/resume",
-    component: _3abf8be2,
+    component: _9a4b9132,
     name: "resume"
   }, {
     path: "/",
-    component: _7a5792d0,
+    component: _432aba2a,
     name: "index"
   }],
 

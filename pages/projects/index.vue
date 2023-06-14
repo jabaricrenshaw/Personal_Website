@@ -43,7 +43,7 @@
             </p>
           </div>
           <div class="project-section-image-right">
-            <img src='~/assets/blurry.png' />
+            <img :src=blurry />
           </div>
         </div>
 
@@ -81,7 +81,7 @@
             </p>
           </div>
           <div class="project-section-image-right">
-            <img src='~/assets/queens.png' />
+            <img :src=queens />
           </div>
         </div>
 
@@ -109,7 +109,7 @@
             </p>
           </div>
           <div class="project-section-image-right">
-            <img src='~/assets/intrusion.png' style="transform: rotate(-30deg); max-height: 120px;" />
+            <img :src=intrusion style="transform: rotate(-30deg); max-height: 120px;" />
           </div>
         </div>
 
@@ -158,7 +158,7 @@
             </p>
           </div>
           <div class="project-section-image-right">
-            <img src='~/assets/email.png' style="transform: rotate(-30deg); max-height: 150px;"/>
+            <img :src=email style="transform: rotate(-30deg); max-height: 150px;"/>
           </div>
         </div>
 
@@ -197,7 +197,7 @@
             </p>
           </div>
           <div class="project-section-image-right">
-            <img src='~/assets/star.png' />
+            <img :src=star />
           </div>
         </div>
 
@@ -237,7 +237,7 @@
             </p>
           </div>
           <div class="project-section-image-left">
-            <img src='~/assets/mandelbrot.png' />
+            <img :src=mandelbrot />
           </div>
         </div>
 
@@ -266,7 +266,7 @@
             </p>
           </div>
           <div class="project-section-image-right">
-            <img src='~/assets/fish r1.png' style="transform: rotate(-30deg); max-height: 60px;" />
+            <img :src=fish style="transform: rotate(-30deg); max-height: 60px;" />
           </div>
         </div>
 
@@ -297,7 +297,7 @@
             </p>
           </div>
           <div class="project-section-image-right">
-            <img src='~/assets/spider.gif' style="max-height: 100px;" />
+            <img :src=spider style="max-height: 100px;" />
           </div>
         </div>
 
@@ -331,7 +331,7 @@
             </p>
           </div>
           <div class="project-section-image-right">
-            <img src='~/assets/rc.jpg' />
+            <img :src=rc />
           </div>
         </div>
 
@@ -357,7 +357,7 @@
             </p>
           </div>
           <div class="project-section-image-right">
-            <img src='~/assets/dashboard.png'/>
+            <img :src=dashboard />
           </div>
         </div>
       </div>
@@ -367,6 +367,16 @@
 
 <script lang="ts" setup>
 import Header from '~/components/TopHeader.vue'
+import blurry from '~/assets/blurry.png'
+import dashboard from '~/assets/dashboard.png'
+import email from '~/assets/email.png'
+import fish from '~/assets/fish.png'
+import intrusion from '~/assets/intrusion.png'
+import mandelbrot from '~/assets/mandelbrot.png'
+import queens from '~/assets/queens.png'
+import rc from '~/assets/rc.jpg'
+import spider from '~/assets/spider.gif'
+import star from '~/assets/star.png'
 </script>
 
 <style lang="css" scoped>

@@ -1,5 +1,5 @@
 <template>
-    <main>
+    <div class="main">
         <div class="leftContent">
             <div class="d1">
                 <NuxtLink id="name" to="/">Jabari<br>Crenshaw</NuxtLink>
@@ -14,7 +14,7 @@
                 <NuxtLink to="/resume" class="link">Resume</NuxtLink>
             </div>
         </div>
-    </main>   
+    </div>   
 </template>
 
 <script lang="ts" setup>
@@ -22,7 +22,7 @@
 </script>
 
 <style lang="css" scoped>
-main{
+.main{
     width: 100%;
     height: 80px;
     display: flex;

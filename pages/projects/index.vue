@@ -20,7 +20,7 @@
             >!
           </p>
         </div>
-        <div class="wrapper-left">
+        <div class="wrapper wrapper-left">
           <div class="project-section project-section-left">
             <p class="project-section-header">Image Recognition</p>
             <p class="project-section-desc">
@@ -47,7 +47,7 @@
           </div>
         </div>
 
-        <div class="wrapper-right">
+        <div class="wrapper wrapper-right">
           <div class="project-section project-section-right">
             <p class="project-section-header">
               N-Queens Solver *(using
@@ -85,7 +85,7 @@
           </div>
         </div>
 
-        <div class="wrapper-left">
+        <div class="wrapper wrapper-left">
           <div class="project-section project-section-left">
             <p class="project-section-header">Network Intrusion Detection</p>
             <p class="project-section-desc">
@@ -113,7 +113,7 @@
           </div>
         </div>
 
-        <div class="wrapper-right">
+        <div class="wrapper wrapper-right">
           <div class="project-section project-section-right">
             <p class="project-section-header">Spam E-Mail Classifier</p>
             <p class="project-section-desc">
@@ -162,7 +162,7 @@
           </div>
         </div>
 
-        <div class="wrapper-left">
+        <div class="wrapper wrapper-left">
           <div class="project-section project-section-left">
             <p class="project-section-header">Yelp Business Ratings</p>
             <p class="project-section-desc">
@@ -205,7 +205,7 @@
           <h3>Games / Graphics</h3>
           <p class="project-section-desc"></p>
         </div>
-        <div class="wrapper-left">
+        <div class="wrapper wrapper-left">
           <div class="project-section project-section-left">
             <p class="project-section-header">Mandelbrot Set</p>
             <p class="project-section-desc">
@@ -241,7 +241,7 @@
           </div>
         </div>
 
-        <div class="wrapper-right">
+        <div class="wrapper wrapper-right">
           <div class="project-section project-section-right">
             <p class="project-section-header">Flappy Fish</p>
             <p class="project-section-desc">
@@ -270,7 +270,7 @@
           </div>
         </div>
 
-        <div class="wrapper-left">
+        <div class="wrapper wrapper-left">
           <div class="project-section project-section-left">
             <p class="project-section-header">Spider "Walk-It" Game</p>
             <p class="project-section-desc">
@@ -307,7 +307,7 @@
             *Projects that deserve a seperate category.
           </p>
         </div>
-        <div class="wrapper-left">
+        <div class="wrapper wrapper-left">
           <div class="project-section project-section-left">
             <p class="project-section-header">MITLL Racecar</p>
             <p class="project-section-desc">
@@ -335,7 +335,7 @@
           </div>
         </div>
 
-        <div class="wrapper-right">
+        <div class="wrapper wrapper-right">
           <div class="project-section project-section-right">
             <p class="project-section-header">Peoplesense Dashboard</p>
             <p class="project-section-desc">
@@ -371,6 +371,9 @@ import Header from '~/components/TopHeader.vue'
 </script>
 
 <style lang="css" scoped>
+main {
+  height: 100vh;
+}
 .content {
   background-color: #212121;
   width: 100%;
@@ -381,19 +384,18 @@ import Header from '~/components/TopHeader.vue'
   text-align: center;
   color: white;
 }
-.wrapper-left{
+.wrapper{
   width: 100%;
   height: 100%;
   display: flex;
-  flex-direction: row;
   align-items: center;
+  padding-bottom: 50px;
+}
+.wrapper-left{
+  flex-direction: row;
 }
 .wrapper-right{
-  width: 100%;
-  height: 100%;
-  display: flex;
   flex-direction: row-reverse;
-  align-items: center;
 }
 .project-wrapper {
   display: flex;
@@ -404,7 +406,6 @@ import Header from '~/components/TopHeader.vue'
 }
 .project-section {
   width: 60%;
-  padding-bottom: 10px;
 }
 .project-section-image-left img{
   max-height: 170px;
@@ -437,9 +438,9 @@ import Header from '~/components/TopHeader.vue'
   font-style: italic;
 }
 .project-section-left {
-  padding-right: 10px;
+  padding-right: 25px;
 }
 .project-section-right {
-  padding-left: 10px;
+  padding-left: 25px;
 }
 </style>

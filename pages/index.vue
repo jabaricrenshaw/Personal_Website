@@ -3,10 +3,8 @@
     <Header />
     <div class="content">
       <h2 id="pageheader">Home</h2>
+
       <div class="home-wrapper">
-
-        
-
         <div class="section-one add-bottom-pad">
           <div class='profile-img'>
             <img  src='images/profileimage.jpg'/>
@@ -58,7 +56,7 @@
             lake while kayaking, or having a light gaming session.
           </div>
         </div>
-      </div>     
+      </div>
     </div>
   </main>
 </template>
@@ -71,14 +69,16 @@ import Header from '~/components/TopHeader.vue';
 <style lang="css" scoped>
 main {
   height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 .content {
-  background-color: #212121;
+  height: 100%;
   width: 100%;
   padding-top: 10px;
+  display: flex;
+  flex-direction: column;
   color: white;
-  /*display: flex;
-  flex-direction: column;*/
 }
 .profile-img {
   height: 300px;
@@ -96,7 +96,10 @@ main {
   color: white;
 }
 .home-wrapper {
-  padding: 20px 15% 0 15%;
+  display: flex;
+  flex-direction: column;
+  height: 70%;
+  width: 90%;
   margin: auto;
   max-width: 1050px;
 }

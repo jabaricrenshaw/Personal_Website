@@ -25,12 +25,11 @@ h2 {
 .content {
   width: 100%;
   text-align: center;
-  padding-top: 15px;
+  padding-top: 10px;
   background-color: #212121;
 }
 
 #pageheader{
-  margin-top: -5px;
   padding-bottom: 20px;
 }
 </style>

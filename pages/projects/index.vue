@@ -201,10 +201,13 @@
           </div>
         </div>
 
+
+
         <div class="project-main-header">
           <h3>Games / Graphics</h3>
           <p class="project-section-desc"></p>
         </div>
+
         <div class="wrapper wrapper-left">
           <div class="project-section project-section-left">
             <p class="project-section-header">Mandelbrot Set</p>
@@ -243,6 +246,36 @@
 
         <div class="wrapper wrapper-right">
           <div class="project-section project-section-right">
+            <p class="project-section-header">Physics Simulation</p>
+            <p class="project-section-desc">
+              Once again, this project was made using 
+              <a
+                class="external-link"
+                href="https://www.raylib.com/"
+                target="_blank"
+                >Raylib</a
+              >
+              in C++. I wanted to apply the concepts of kinematics, gravity,
+              and force based physics in a "real-time" environment where the
+              code is as period correct as possible. I would hope that
+              if this project is written well enough going forward, that
+              I could begin to support others to fork this project as a good base
+              for their own physics visualization ideas.
+              <a
+                class="external-link"
+                href="https://github.com/jabaricrenshaw/Physics_Sim"
+                target="_blank"
+                >here</a
+              >! View the README to get started.
+            </p>
+          </div>
+          <div class="project-section-image-left">
+            <img src='images/fsx.gif' />
+          </div>
+        </div>
+
+        <div class="wrapper wrapper-left">
+          <div class="project-section project-section-left">
             <p class="project-section-header">Flappy Fish</p>
             <p class="project-section-desc">
               Made using the
@@ -265,13 +298,13 @@
               >!
             </p>
           </div>
-          <div class="project-section-image-right">
+          <div class="project-section-image-left">
             <img src='images/fish.png' style="transform: rotate(-30deg); max-height: 60px;" />
           </div>
         </div>
 
-        <div class="wrapper wrapper-left">
-          <div class="project-section project-section-left">
+        <div class="wrapper wrapper-right">
+          <div class="project-section project-section-right">
             <p class="project-section-header">Spider "Walk-It" Game</p>
             <p class="project-section-desc">
               Made using the
@@ -360,6 +393,7 @@
             <img src='images/dashboard.png' />
           </div>
         </div>
+
       </div>
     </div>
   </main>

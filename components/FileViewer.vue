@@ -1,8 +1,6 @@
 <template>
     <main>
-        <iframe src="https://drive.google.com/file/d/1pBmhmPDLZ0XpeL86IlaxGhkehv4ZiV7E/preview?usp=sharing"></iframe>
-        
-        
+        <iframe src="https://drive.google.com/file/d/1n3zhdr_i6xHWIKfX5mTZdPr0P6aj25AM/preview?usp=sharing"></iframe>        
     </main>
 </template>
 
@@ -13,9 +11,10 @@
 <style lang="css" scoped>
 main {
     width: 100%;
-    height: 84vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
+    padding-bottom: 10%;
 }
 iframe {
     width: 65%;

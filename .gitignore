@@ -1,3 +1,6 @@
+#Dotfiles
+.*
+
 #Nuxt generated data
 .nuxt/
 

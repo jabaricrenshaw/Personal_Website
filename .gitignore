@@ -1,3 +1,6 @@
+#Nuxt generated data
+.nuxt/
+
 # Logs
 logs
 *.log

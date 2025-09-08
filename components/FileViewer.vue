@@ -1,6 +1,6 @@
 <template>
     <main>
-        <iframe src="https://drive.google.com/file/d/16xsjvqLpti2WKysLf8aJTrkhkoC3GSBY/view" />
+        <iframe src="https://drive.google.com/file/d/16xsjvqLpti2WKysLf8aJTrkhkoC3GSBY/preview?usp=sharing" />
     </main>
 </template>
 
